@@ -20,8 +20,8 @@ void buttonPressedTwoSeconds()
 
 void buttonISR()
 {
-  //When button is being used through external interrupts, parameter INTERRUPT must be passed to read() function
-  button.read(INTERRUPT); 
+  //When button is being used through external interrupts, parameter EASYBUTTON_READ_MODE_INTERRUPT must be passed to read() function
+  button.read(EASYBUTTON_READ_MODE_INTERRUPT);
 }
 
 void setup() {
